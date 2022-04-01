@@ -59,7 +59,7 @@ $app->get("/admin/products/:idproduct", function($idproduct){
 
 });
 
-$app->post("/admin/products/:idproduct", function($idproduct){
+$app->post("/admin/products/:idproduct/add", function($idproduct){
 
 	User::verifyLogin();
 
